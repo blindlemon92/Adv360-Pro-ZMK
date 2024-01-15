@@ -1,3 +1,33 @@
+macro_screen_shot: macro_screen_shot{
+compatible = "zmk,behavior-macro";
+label = "macro_screen_shot";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_SHIFT>, <&kp RIGHT_COMMAND>, <&kp NUMBER_3>;
+};
+macro_figma_togui: macro_figma_togui{
+compatible = "zmk,behavior-macro";
+label = "macro_figma_togui";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_COMMAND>, <&kp BACKSLASH>;
+};
+macro_vscode_togter: macro_vscode_togter{
+compatible = "zmk,behavior-macro";
+label = "macro_vscode_togter";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_CONTROL>, <&kp GRAVE>;
+};
+macro_redo: macro_redo{
+compatible = "zmk,behavior-macro";
+label = "macro_redo";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_COMMAND>, <&kp LEFT_SHIFT>, <&kp Z>;
+};
+macro_undo: macro_undo{
+compatible = "zmk,behavior-macro";
+label = "macro_undo";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_COMMAND>, <&kp Z>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
